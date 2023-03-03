@@ -1,0 +1,53 @@
+table, tr, td, th {
+    border: 1px solid #777 !important;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 4px;
+    font-size: 0.9em;
+}
+
+.html-view h1 {
+    font-size: 1.2em;
+}
+
+.html-view em {
+    background-color: #ffff00;
+}
+
+.data-table .selected {
+    background-color: #eeeeee;
+}
+
+.widget-group input[type=text] {
+    font-size: 0.8em;
+}
+
+.filter-input-list {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 15px;
+}
+
+.filter-input-group {
+    width: 100%;
+}
+
+.filter-input>input {
+    width: 100%;
+}
+
+.data-table-container {
+    max-height: max(calc(100vh - 350px), 200px);
+    overflow-y: auto;
+}
+
+app-widget-progress {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: baseline;
+}
+

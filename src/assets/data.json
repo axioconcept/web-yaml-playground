@@ -1,0 +1,38 @@
+{
+    "contactPerson": {
+        "firstName": "John",
+        "lastName": "Doe"
+    },
+    "orders": [
+        {
+            "articleNumber": "10020",
+            "article": "Yellow thing",
+            "amount": 1,
+            "articlePrice": 30.39
+        },
+        {
+            "articleNumber": "10022",
+            "article": "Blue thing",
+            "amount": 2,
+            "articlePrice": 29.99
+        }
+    ],
+    "loginsPerDay": [
+        {
+            "date": "2023-01-04",
+            "logins": 4
+        },
+        {
+            "date": "2023-01-05",
+            "logins": 3
+        },
+        {
+            "date": "2023-01-06",
+            "logins": 6
+        },
+        {
+            "date": "2023-01-07",
+            "logins": 7
+        }
+    ]
+}

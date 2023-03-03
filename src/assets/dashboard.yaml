@@ -1,0 +1,9 @@
+settings:
+    title: 'Application'
+
+pages:
+    index:
+        title: 'Page 1'
+    
+    help:
+        title: 'Page 2'
