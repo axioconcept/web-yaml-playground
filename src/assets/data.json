@@ -5,16 +5,21 @@
     },
     "orders": [
         {
-            "articleNumber": "10020",
-            "article": "Yellow thing",
-            "amount": 1,
-            "articlePrice": 30.39
-        },
-        {
-            "articleNumber": "10022",
-            "article": "Blue thing",
-            "amount": 2,
-            "articlePrice": 29.99
+            "orderNumber": "O1004003",
+            "orderItems": [
+                {
+                    "articleNumber": "10020",
+                    "article": "Yellow thing",
+                    "amount": 1,
+                    "articlePrice": 30.39
+                },
+                {
+                    "articleNumber": "10022",
+                    "article": "Blue thing",
+                    "amount": 2,
+                    "articlePrice": 29.99
+                }
+            ]
         }
     ],
     "loginsPerDay": [
